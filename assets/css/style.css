@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 2rem;
+  background-color: #ffffff;
+  color: #111111;
+}
+
+header, footer {
+  padding: 1rem 0;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #111111;
+  color: #f4f4f4;
+}
+
+.dark-mode header, .dark-mode footer {
+  background: #222;
+}
