@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Expense Tracker App
+permalink: /projects/project1
 ---
 
 ## Expense Tracker App
