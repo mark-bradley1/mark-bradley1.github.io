@@ -3,9 +3,13 @@ layout: default
 title: Mark Bradley | Software Developer
 ---
 
-# Hi, I'm Mark 👋
+<div class="hero">
+
+# Hi, I'm Mark 
 
 I build backend systems and web apps using **Java, Spring Boot, SQL, and Jekyll**.  
+
+</div>
 
 Check out my [Projects](/projects/) or learn more [About Me](/about/).  
 
