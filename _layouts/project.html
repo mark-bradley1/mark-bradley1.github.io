@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="card">
+  <h1>{{ page.title }}</h1>
+
+  <p><strong>Tech:</strong> {{ page.tech }}</p>
+
+  <div>
+    {{ content }}
+  </div>
+
+  {% raw %}
+  {% if page.github %}
+  <p><a href="{{ page.github }}">View on GitHub →</a></p>
+  {% endif %}
+  {% endraw %}
+</article>
