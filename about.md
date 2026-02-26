@@ -24,6 +24,6 @@ Software developer transitioning from finance. Experienced in **data analysis, b
 - LinkedIn: [linkedin.com/in/mark-bradley-a6b61244](https://www.linkedin.com/in/mark-bradley-a6b61244)  
 - GitHub: [github.com/mark-bradley1](https://github.com/mark-bradley1)  
 
-[Resume]<a href="{{ '/assets/Mark-Bradley-Resume.pdf' | relative_url }}" target="_blank">
+<a href="{{ '/assets/Mark-Bradley-Resume.pdf' | relative_url }}" target="_blank">
   Resume
 </a>
