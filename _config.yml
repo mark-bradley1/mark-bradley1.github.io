@@ -1,2 +1,7 @@
-theme: jekyll-theme-minimal
-title: Mark's homepage
+title: Mark Bradley Portfolio
+description: Software developer portfolio - JavaScript, React, HTML, CSS, Java, Spring Boot, SQL
+theme: minima
+plugins:
+  - jekyll-feed
+baseurl: "" # leave blank for GitHub Pages root
+url: "https://mark-bradley1.github.io"
