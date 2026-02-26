@@ -1,6 +1,10 @@
 title: Mark Bradley Portfolio
 description: Software developer portfolio - JavaScript, React, HTML, CSS, Java, Spring Boot, SQL
 theme: minima
+
+collections:
+  projects:
+    output: true
 plugins:
   - jekyll-feed
 baseurl: "" # leave blank for GitHub Pages root
