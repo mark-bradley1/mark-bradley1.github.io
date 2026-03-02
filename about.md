@@ -21,7 +21,7 @@ Software developer transitioning from finance. Experienced in **data analysis, b
 ## Contact
 
 - Email: mark@example.com  
-- LinkedIn: [linkedin.com/in/mark-bradley-a6b61244](https://www.linkedin.com/in/mark-bradley1)  
+- LinkedIn: [linkedin.com/in/mark-bradley1](https://www.linkedin.com/in/mark-bradley1)  
 - GitHub: [github.com/mark-bradley1](https://github.com/mark-bradley1)  
 
 <a href="{{ '/assets/Mark-Bradley-Resume.pdf' | relative_url }}" target="_blank">
