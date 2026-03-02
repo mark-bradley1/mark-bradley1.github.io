@@ -18,9 +18,8 @@ Check out my [Projects](/projects/) or learn more [About Me](/about/).
 ## Featured Projects
 
 <div class="card">
-<h3>Expense Tracker</h3>
-<p>Spring Boot app for tracking expenses.</p>
+<h3>Grocery Store Price Comparison</h3>
+<p>Full Stack app for comparing grocery prices.</p>
 <a href="/projects/project1/">View Project →</a>
 </div>
-- [Weather Dashboard](/projects/project2/) – Fetches live weather data using APIs.
 - [Portfolio Site](/projects/project3/) – This very site, built with Jekyll and GitHub Pages.
