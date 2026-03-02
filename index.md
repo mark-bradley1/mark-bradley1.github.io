@@ -21,7 +21,8 @@ Check out my [Projects](/projects/) or learn more [About Me](/about/).
   <h3>Grocery Store Price Comparison</h3>
   <p>Full Stack app for comparing grocery prices.</p>
   <a href="/projects/grocery-price-comparison/">View Project →</a>
-  
+</div>  
+<div class="card">  
   <h3>Portfolio Site</h3>
   <p>This site, build with Jekyll and GitHub Pages.</p>
   <a href="/projects/portfolio-site/">View Project →</a>
