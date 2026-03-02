@@ -16,19 +16,6 @@
   --shadow-md: 0 8px 30px rgba(0,0,0,0.06);
 }
 
-.dark-mode {
-  --bg: #0f172a;
-  --text: #f1f5f9;
-  --muted: #94a3b8;
-  --accent: #60a5fa;
-  --accent-hover: #3b82f6;
-  --card: #1e293b;
-  --border: #334155;
-
-  --shadow-sm: 0 2px 6px rgba(0,0,0,0.3);
-  --shadow-md: 0 8px 30px rgba(0,0,0,0.4);
-}
-
 /* ============================= */
 /* ===== Base ================== */
 /* ============================= */
@@ -145,7 +132,8 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  font-style: bold;
   margin-bottom: 0.5rem;
   color: white;
 }
