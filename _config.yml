@@ -5,6 +5,7 @@ theme: minima
 collections:
   projects:
     output: true
+    permalink: /projects/:name/
 plugins:
   - jekyll-feed
 baseurl: "" # leave blank for GitHub Pages root
