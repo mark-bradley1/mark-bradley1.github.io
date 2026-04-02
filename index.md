@@ -50,6 +50,9 @@ title: Home
 
         <ul class="project-tags">
           <li>Java</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
           <li>Spring Boot</li>
           <li>React</li>
           <li>MySQL</li>
