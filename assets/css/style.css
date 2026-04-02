@@ -332,6 +332,8 @@ footer {
   padding: 1.6rem;
   box-shadow: var(--shadow-sm);
   transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 
 .project-card:hover {
