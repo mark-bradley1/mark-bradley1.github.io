@@ -1,30 +1,72 @@
 ---
 layout: default
-title: Mark Bradley | Software Developer
+title: Home
 ---
 
-<div class="hero">
+<section class="hero fade-in">
+  <h1>Hi, I'm Mark</h1>
+  <p>
+    Full-stack developer building clean, scalable web applications with Java, Spring Boot, and React.
+  </p>
 
-Hi, I'm Mark 
+  <div class="hero-actions">
+    <a href="#projects" class="button">View Projects</a>
+    <a href="#contact" class="button secondary">Contact Me</a>
+  </div>
+</section>
 
-I build backend systems and web apps using **JavaScript, HTML, CSS, React, Java, Spring Boot, SQL, and Jekyll**.  
+<section class="fade-in">
+  <h2>What I Do</h2>
 
-</div>
+  <div class="projects-grid">
+    <div class="card">
+      <h3>Full Stack Development</h3>
+      <p>Building scalable applications using Spring Boot, REST APIs, and React.</p>
+    </div>
 
-Check out my [Projects](/projects/) or learn more [About Me](/about/).  
+    <div class="card">
+      <h3>Backend Systems</h3>
+      <p>Designing clean APIs, database models, and secure authentication flows.</p>
+    </div>
 
----
+    <div class="card">
+      <h3>Frontend UI</h3>
+      <p>Creating responsive, user-friendly interfaces with modern design.</p>
+    </div>
+  </div>
+</section>
 
-## Featured Projects
+<section id="projects" class="fade-in">
+  <h2>Projects</h2>
 
-<div class="card">
-  <h3>Grocery Store Price Comparison</h3>
-  <p>Full Stack app for comparing grocery prices.</p>
-  <a href="/projects/grocery-price-comparison/">View Project →</a>
-</div>  
-<div class="card">  
-  <h3>Portfolio Site</h3>
-  <p>This site, build with Jekyll and GitHub Pages.</p>
-  <a href="/projects/portfolio-site/">View Project →</a>
-</div>
+  <div class="projects-grid">
 
+    <div class="project-card">
+      <div class="project-content">
+        <h3>Price Comparison App</h3>
+        <p>
+          A full-stack app that compares grocery prices across stores using real-time API data.
+        </p>
+
+        <ul class="project-tags">
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>React</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div class="project-footer">
+        <a href="#" class="button small">Live Demo</a>
+        <a href="#" class="button small secondary">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="fade-in">
+  <h2>Contact</h2>
+  <p>Feel free to reach out if you'd like to work together.</p>
+  <a href="mailto:your@email.com" class="button">Email Me</a>
+</section>
