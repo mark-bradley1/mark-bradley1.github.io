@@ -7,7 +7,7 @@ title: Mark Bradley | Software Developer
 
 Hi, I'm Mark 
 
-I build backend systems and web apps using **Java, Spring Boot, SQL, and Jekyll**.  
+I build backend systems and web apps using **JavaScript, HTML, CSS, React, Java, Spring Boot, SQL, and Jekyll**.  
 
 </div>
 
