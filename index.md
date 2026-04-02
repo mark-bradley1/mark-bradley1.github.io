@@ -67,8 +67,25 @@ title: Home
   </div>
 </section>
 
-<section id="contact" class="fade-in">
-  <h2>Contact</h2>
-  <p>Feel free to reach out if you'd like to work together.</p>
-  <a href="mailto:mbradle15@gmail.com" class="button">Email Me</a>
+<section id="contact" class="fade-in contact-section">
+  <h2>Contact Me</h2>
+  <p>I'd love to hear from you! Fill out the form below or reach me directly via email.</p>
+
+  <form action="https://formspree.io/f/mbdpaprb" method="POST" class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="_replyto" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="button">Send Message</button>
+  </form>
+
+  <p class="contact-alt">
+    Or email me directly at 
+    <a href="mailto:mbradle15@gmail.com">mbradle15@gmail.com</a>
+  </p>
 </section>
