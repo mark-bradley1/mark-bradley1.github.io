@@ -317,3 +317,83 @@ footer {
     font-size: 2.2rem;
   }
 }
+
+/* ============================= */
+/* ===== Project Cards ========= */
+/* ============================= */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.6rem;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: var(--shadow-md);
+}
+
+.project-content h3 {
+  margin-top: 0;
+}
+
+.project-tags {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tags li {
+  background: rgba(37,99,235,0.1);
+  color: var(--accent);
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.project-footer {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+/* ============================= */
+/* ===== Buttons Upgrade ======= */
+/* ============================= */
+
+.button.secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.button.secondary:hover {
+  background: var(--accent);
+  color: white;
+}
+
+.button.small {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.8rem;
+}
+
+/* ============================= */
+/* ===== Hero Buttons ========== */
+/* ============================= */
+
+.hero-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
