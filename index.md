@@ -60,7 +60,7 @@ title: Home
       </div>
 
       <div class="project-footer">
-        <a href="https://github.com/mark-bradley1/Unit2-Final-Project-Price-Comparison" class="button small secondary">GitHub</a>
+        <a href="https://github.com/mark-bradley1/Unit2-Final-Project-Price-Comparison" class="button small secondary" target="_blank">GitHub</a>
       </div>
     </div>
 
