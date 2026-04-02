@@ -11,7 +11,7 @@ title: Home
 
   <div class="hero-actions">
     <a href="#projects" class="button">View Projects</a>
-    <a href="#contact" class="button secondary">Contact Me</a>
+    <a href="#contact" class="button">Contact Me</a>
   </div>
 </section>
 
