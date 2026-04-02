@@ -57,8 +57,7 @@ title: Home
       </div>
 
       <div class="project-footer">
-        <a href="#" class="button small">Live Demo</a>
-        <a href="#" class="button small secondary">GitHub</a>
+        <a href="https://github.com/mark-bradley1/Unit2-Final-Project-Price-Comparison" class="button small secondary">GitHub</a>
       </div>
     </div>
 
@@ -68,5 +67,5 @@ title: Home
 <section id="contact" class="fade-in">
   <h2>Contact</h2>
   <p>Feel free to reach out if you'd like to work together.</p>
-  <a href="mailto:your@email.com" class="button">Email Me</a>
+  <a href="mailto:mbradle15@gmail.com" class="button">Email Me</a>
 </section>
