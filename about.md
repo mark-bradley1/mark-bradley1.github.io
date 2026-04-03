@@ -18,16 +18,18 @@ permalink: /about/
     <!-- LEFT COLUMN -->
     <div class="about-content">
 
-      <h2>Professional Summary</h2>
-      <p>
-        I transitioned into software development from a finance background, where I developed strong analytical and problem-solving skills. 
-        Today, I focus on building full-stack applications using Java, Spring Boot, and React.
-      </p>
+     <h2>Professional Summary</h2>
+    <p>
+      Full-stack developer with a background in finance, manufacturing, and military operations,
+      bringing over 14 years of experience in analytical problem-solving, systems thinking, and
+      data-driven decision making.
+    </p>
 
-      <p>
-        My experience includes developing RESTful APIs, designing database schemas, and creating responsive user interfaces. 
-        I enjoy working across the stack and continuously improving both performance and user experience.
-      </p>
+    <p>
+      Experienced in building web applications using Java, JavaScript, Spring Boot, and React, with a strong
+      focus on backend systems, API design, and scalable architecture. Known for translating
+      complex requirements into structured, reliable solutions.
+    </p>
 
       <h2>Skills</h2>
 
