@@ -178,6 +178,15 @@ nav a:hover::after {
   max-width: 600px;
 }
 
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
 /* ============================= */
 /* ===== Cards ================= */
 /* ============================= */
@@ -369,6 +378,10 @@ footer {
   margin-top: 1.5rem;
 }
 
+.project-description {
+  margin: 0.5rem 0 1rem;
+}
+
 /* ============================= */
 /* ===== Buttons Upgrade ======= */
 /* ============================= */
@@ -469,4 +482,34 @@ footer {
 
 .contact-alt a:hover {
   color: var(--accent-hover);
+}
+
+.contact-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Section text */
+.section-text {
+  max-width: 700px;
+  color: var(--muted);
+}
+
+/* Section header row */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Badge */
+.badge {
+  background: rgba(37,99,235,0.1);
+  color: var(--accent);
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
