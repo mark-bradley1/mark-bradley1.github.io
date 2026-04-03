@@ -8,29 +8,31 @@ permalink: /projects/
 
 <div class="projects-grid">
   {% for project in site.projects %}
-    <div class="project-card fade-in">
+    <div class="card project-card">
 
-      <!-- Project content -->
-      <div class="project-content">
+      <div class="project-header">
         <h3>{{ project.title }}</h3>
-        <p>{{ project.description | default: project.content | strip_html | truncate: 150 }}</p>
-
-        {% if project.tech %}
-          <ul class="project-tags">
-            {% for tech in project.tech %}
-              <li>{{ tech }}</li>
-            {% endfor %}
-          </ul>
+        {% if project.type %}
+          <span class="badge">{{ project.type }}</span>
         {% endif %}
       </div>
 
-      <!-- Project action buttons -->
-      <div class="project-footer">
+      <p class="project-description">
+        {{ project.description }}
+      </p>
+
+      <div class="project-tech">
+        {% for tech in project.stack %}
+          <span>{{ tech }}</span>
+        {% endfor %}
+      </div>
+
+      <div class="project-links">
         {% if project.demo %}
-          <a href="{{ project.demo }}" class="button small" target="_blank">Live Demo</a>
+          <a href="{{ project.demo }}" class="button small">Live Demo</a>
         {% endif %}
         {% if project.github %}
-          <a href="{{ project.github }}" class="button small secondary" target="_blank">GitHub</a>
+          <a href="{{ project.github }}" target="_blank">GitHub →</a>
         {% endif %}
       </div>
 
