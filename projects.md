@@ -2,7 +2,7 @@
 
   <div class="section-header">
     <h2>Projects</h2>
-    <a href="/projects/">View All →</a>
+    <a href="{{ '/projects/' | relative_url }}">View All →</a>
   </div>
 
   <div class="projects-grid">
