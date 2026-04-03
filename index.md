@@ -4,14 +4,17 @@ title: Home
 ---
 
 <section class="hero fade-in">
-  <h1>Hi, I'm Mark</h1>
+  <h1>Full-Stack Developer</h1>
+
   <p>
-    Full-stack developer building clean, scalable web applications with Java, Spring Boot, and React.
+    Former finance professional with 14+ years of experience in data analysis,
+    systems thinking, and operations—now building scalable web applications
+    using Java, Spring Boot, and React.
   </p>
 
   <div class="hero-actions">
-    <a href="#projects" class="button">View Projects</a>
-    <a href="#contact" class="button">Contact Me</a>
+    <a href="/projects/" class="button">View Projects</a>
+    <a href="/#contact" class="button secondary">Contact Me</a>
   </div>
 </section>
 
