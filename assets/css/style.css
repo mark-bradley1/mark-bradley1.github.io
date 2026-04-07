@@ -355,6 +355,20 @@ footer {
   pointer-events: none;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card-link:hover {
+  text-decoration: none;
+}
+
+.project-card {
+  cursor: pointer;
+}
+
 .project-content h3 {
   margin-top: 0;
 }
