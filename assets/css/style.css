@@ -421,6 +421,10 @@ footer {
   font-size: 0.8rem;
 }
 
+.button.small:hover {
+  color: white;
+}
+
 /* ============================= */
 /* ===== Hero Buttons ========== */
 /* ============================= */
