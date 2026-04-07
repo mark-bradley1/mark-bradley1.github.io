@@ -8,8 +8,8 @@
   <div class="projects-grid">
 
     {% for project in site.projects limit:2 %}
-    <a href="{{ project.url | relative_url }}" class="project-card-link">
-      <div class="card project-card">
+      <div class="card project-card"
+        onclick="window.location='{{ project.url | relative_url }}'">
 
         <div class="project-header">
           <h3>{{ project.title }}</h3>
@@ -41,11 +41,7 @@
             <span style="color:red;">Missing GitHub link</span>
           {% endif %}
         </div>
-      </a>
-
       </div>
     {% endfor %}
-
   </div>
-
 </section>
