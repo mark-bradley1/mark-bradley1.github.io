@@ -34,7 +34,6 @@
              class="button small" 
              target="_blank" 
              rel="noopener noreferrer">
-             onclick="event.stopPropagation();">
               GitHub
             </a>
           {% else %}
