@@ -8,6 +8,7 @@
   <div class="projects-grid">
 
     {% for project in site.projects limit:2 %}
+    <a href="{{ project.url | relative_url }}" class="project-card-link">
       <div class="card project-card">
 
         <div class="project-header">
@@ -33,12 +34,14 @@
              class="button small" 
              target="_blank" 
              rel="noopener noreferrer">
+             onclick="event.stopPropagation();">
               GitHub
             </a>
           {% else %}
             <span style="color:red;">Missing GitHub link</span>
           {% endif %}
         </div>
+      </a>
 
       </div>
     {% endfor %}
