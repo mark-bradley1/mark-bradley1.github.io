@@ -28,10 +28,15 @@
         </ul>
 
         <div class="project-footer">
-          {% if project.github %}
-            <a href="{{ project.github }}" class="button small" target="_blank">
+          {% if project.github and project.github != "" %}
+             <a href="{{ project.github | strip }}" 
+             class="button small" 
+             target="_blank" 
+             rel="noopener noreferrer">
               GitHub
             </a>
+          {% else %}
+            <span style="color:red;">Missing GitHub link</span>
           {% endif %}
         </div>
 
