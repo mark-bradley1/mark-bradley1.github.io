@@ -117,6 +117,11 @@ title: Home
            target="_blank">
           GitHub
         </a>
+        <a href="https://grocery-price-comparison-nine.vercel.app/"
+          class="button small"
+          target="_blank">
+          Live Demo
+        </a>
       </div>
 
     </div>
