@@ -33,7 +33,8 @@
           <a href="{{ project.github | strip }}" 
             class="button small" 
             target="_blank" 
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            onclick="event.stopPropagation();">
             GitHub
           </a>
         {% endif %}
@@ -42,7 +43,8 @@
           <a href="{{ project.demo | strip }}" 
              class="button small" 
              target="_blank" 
-             rel="noopener noreferrer">
+             rel="noopener noreferrer"
+             onclick="event.stopPropagation();">
             Live Demo
           </a>
           {% endif %}
