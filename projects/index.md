@@ -28,16 +28,23 @@
           {% endfor %}
         </ul>
 
-        <div class="project-footer">
-          {% if project.github and project.github != "" %}
-             <a href="{{ project.github | strip }}" 
+       <div class="project-footer">
+        {% if project.github and project.github != "" %}
+          <a href="{{ project.github | strip }}" 
+            class="button small" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            GitHub
+          </a>
+        {% endif %}
+
+        {% if project.demo and project.demo != "" %}
+          <a href="{{ project.demo | strip }}" 
              class="button small" 
              target="_blank" 
              rel="noopener noreferrer">
-              GitHub
-            </a>
-          {% else %}
-            <span style="color:red;">Missing GitHub link</span>
+            Live Demo
+          </a>
           {% endif %}
         </div>
       </div>
