@@ -13,4 +13,11 @@ layout: default
   {% if page.github %}
   <p><a href="{{ page.github }}">View on GitHub →</a></p>
   {% endif %}
+    {% if page.demo %}
+  <p>
+    <a href="{{ page.demo }}" target="_blank" rel="noopener noreferrer">
+      View Live Site →
+    </a>
+  </p>
+  {% endif %}
 </article>
